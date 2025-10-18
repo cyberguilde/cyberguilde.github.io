@@ -16,6 +16,8 @@ header {
   padding-bottom: 1rem;
   margin-bottom: 1rem;
   background-color: black;
+  width: 120px;
+  height: 82px;
 }
 h1 { margin: 0 0 0.25rem 0; }
 nav a { color: var(--accent); text-decoration: none; }
