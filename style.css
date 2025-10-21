@@ -33,6 +33,22 @@ img {
 opacity: 0.4;
 
 } 
+
+@media (max-width: 1024px) {
+      .card {
+        width: 45%;
+      }
+    }
+
+    @media (max-width: 768px) {
+      nav {
+        flex-direction: column;
+      }
+      .card {
+        width: 90%;
+      }
+    }
+
 h1 { margin: 0 0 0.25rem 0; 
 }
 .headd {

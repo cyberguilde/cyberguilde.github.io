@@ -46,6 +46,22 @@ width: fit-content; }
 opacity: 0.4;
 
 } 
+
+@media (max-width: 1024px) {
+      .card {
+        width: 45%;
+      }
+    }
+
+    @media (max-width: 768px) {
+      nav {
+        flex-direction: column;
+      }
+      .card {
+        width: 90%;
+      }
+    }
+
 nav a { color: var(--accent); text-decoration: none; }
 h2 { margin-top: 1.25rem;  color: whitesmoke;
 background-color: #051d3ead;
