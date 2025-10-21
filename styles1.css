@@ -39,7 +39,13 @@ h3 { margin-top: 1rem; color: whitesmoke;
 background-color: #1a6aa3ad;
 padding: 0.5rem; border-radius: 8px;
 width: fit-content; }
-  
+  img {
+
+  width: 1400px;
+  height: 900px;
+opacity: 0.4;
+
+} 
 nav a { color: var(--accent); text-decoration: none; }
 h2 { margin-top: 1.25rem;  color: whitesmoke;
 background-color: #051d3ead;
