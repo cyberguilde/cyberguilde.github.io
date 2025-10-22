@@ -47,19 +47,44 @@ opacity: 0.4;
 
 } 
 
-@media (max-width: 1024px) {
-      .card {
-        width: 45%;
+     @media screen  and (max-width: 1500px) {
+      body {
+        font-size: 14px;
+        width: 1500px;
+        
       }
+      header {
+        font-size: xx-large;
+        width: 1500px;
+        height: auto;
+      }
+     
     }
-
-    @media (max-width: 768px) {
-      nav {
-        flex-direction: column;
+     @media screen  and (max-width: 800px) {
+      body {
+        font-size: 10px;
+        width: 650px;
+        height: auto;
       }
-      .card {
-        width: 90%;
+      header {
+        font-size: x-large;
+        width: 650px;
+        height: auto;
       }
+     
+    }
+     @media screen  and (max-width: 460px) {
+      body {
+        font-size:7px;
+        width: 450px;
+        height: auto;
+      }
+      header {
+        font-size: large;
+        width: 450px;
+        height: auto;
+      } 
+     
     }
 
 nav a { color: var(--accent); text-decoration: none; }

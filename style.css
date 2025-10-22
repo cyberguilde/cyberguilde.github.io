@@ -34,26 +34,57 @@ opacity: 0.4;
 
 } 
 
-@media (max-width: 1024px) {
-      .card {
-        width: 45%;
+
+    @media screen  and (max-width: 1500px) {
+      body {
+        font-size: 14px;
+        width: 1500px;
+        
       }
+      header {
+        font-size: xx-large;
+        width: 1500px;
+        height: auto;
+      }
+     
+    }
+     @media screen  and (max-width: 800px) {
+      body {
+        font-size: 10px;
+        width: 650px;
+        height: auto;
+      }
+      header {
+        font-size: x-large;
+        width: 650px;
+        height: auto;
+      }
+     
+    }
+     @media screen  and (max-width: 460px) {
+      body {
+        font-size:7px;
+        width: 450px;
+        height: auto;
+      }
+      header {
+        font-size: large;
+        width: 450px;
+        height: auto;
+      } 
+     
     }
 
-    @media (max-width: 768px) {
-      nav {
-        flex-direction: column;
-      }
-      .card {
-        width: 90%;
-      }
-    }
+
+
+     
 
 h1 { margin: 0 0 0.25rem 0; 
 }
 .headd {
   background: linear-gradient(99deg, rgb(122, 19, 113) 30%, rgb(83, 40, 239) 40%, rgb(181, 74, 74) 80%);
   -webkit-background-clip: text;
+  background-clip: text;
   -webkit-text-fill-color: transparent;
 }
 .bande{min-width: 1500px; height: 50px; 
