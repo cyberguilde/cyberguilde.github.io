@@ -34,8 +34,7 @@ opacity: 0.4;
 
 } 
 
-
-    @media screen  and (max-width: 1500px) {
+ @media screen  and (max-width: 1500px) {
       body {
         font-size: 14px;
         width: 1500px;
@@ -46,8 +45,12 @@ opacity: 0.4;
         width: 1500px;
         height: auto;
       }
+      header img {
+        width: 1400px;
+        height: auto;
      
     }
+  }
      @media screen  and (max-width: 800px) {
       body {
         font-size: 10px;
@@ -59,8 +62,12 @@ opacity: 0.4;
         width: 650px;
         height: auto;
       }
+      header img {
+        width: 600px;
+        height: auto;
      
     }
+  }
      @media screen  and (max-width: 460px) {
       body {
         font-size:7px;
@@ -72,12 +79,12 @@ opacity: 0.4;
         width: 450px;
         height: auto;
       } 
+      header img {
+        width: 400px;
+        height: auto;
      
     }
-
-
-
-     
+  }
 
 h1 { margin: 0 0 0.25rem 0; 
 }

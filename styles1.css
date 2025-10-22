@@ -59,8 +59,12 @@ opacity: 0.4;
         width: 1500px;
         height: auto;
       }
+      header img {
+        width: 1400px;
+        height: auto;
      
     }
+  }
      @media screen  and (max-width: 800px) {
       body {
         font-size: 10px;
@@ -72,8 +76,12 @@ opacity: 0.4;
         width: 650px;
         height: auto;
       }
+      header img {
+        width: 600px;
+        height: auto;
      
     }
+  }
      @media screen  and (max-width: 460px) {
       body {
         font-size:7px;
@@ -85,9 +93,11 @@ opacity: 0.4;
         width: 450px;
         height: auto;
       } 
-     
+      header img {
+        width: 400px;
+        height: auto;
     }
-
+  }
 nav a { color: var(--accent); text-decoration: none; }
 h2 { margin-top: 1.25rem;  color: whitesmoke;
 background-color: #051d3ead;
