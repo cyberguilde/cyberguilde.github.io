@@ -30,6 +30,7 @@ h1 { margin: 0 0 0.25rem 0;
 }
 .headd {
   background: linear-gradient(99deg, rgb(122, 19, 113) 30%, rgb(83, 40, 239) 40%, rgb(181, 74, 74) 80%);
+  background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
