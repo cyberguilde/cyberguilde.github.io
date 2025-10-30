@@ -15,6 +15,9 @@ body {
   height: 150rem;
   line-height: 1.5;
   background: linear-gradient(135deg,#f9f8fa 0%, #2d545c86 50%, #070e3bd0 90%);
+  background-repeat: no-repeat;
+  background-attachment: fixed;  
+  background-size: cover;     
 }
 header {
   border: 0%;
