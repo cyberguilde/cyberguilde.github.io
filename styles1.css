@@ -18,6 +18,7 @@ body {
   background-repeat: no-repeat;
   background-attachment: fixed;  
   background-size: cover;     
+  
 }
 header {
   border: 0%;
@@ -63,22 +64,63 @@ section { margin: 2rem auto; max-width: 90rem; padding: 0 1rem;
 footer { margin-top: 2rem; color: var(--muted); font-size: 0.9rem; }
 a:hover { text-decoration: underline; }
 
-
- @media screen  and (max-width:62.5rem) {
+  
+      @media screen  and (max-width:62.5rem) {
       html{
         font-size: 50%;
+        height: fit-content;
       }
       header {
         font-size: 75%;
+        width: 60rem;
+        text-align:left ;
+        padding: 2rem;
+        margin-left: 1.5rem;
+        
       }
 
-      
+      .bande{
+        min-width: 60rem;
+      }
+      section{
+        font-size: 60%;
+        width: 60rem;
+        padding: 0 1rem;
+        height: max-content;  
+        }
+      main{
+        height: fit-content;
+        width: 60rem ;
+        padding: 2rem;
+      }
   }
-     @media screen  and (max-width:31.25rem) {
+ @media screen  and (max-width:31.25rem) {
       html{
-        font-size: 37.5%;
+        font-size: 25.5%;
+        
+      height: fit-content;
+
       }
       header {
-        font-size: 55%;
+        font-size: 35%;
+        width: 35rem;
+        text-align:left ;
+
       }
+      .bande{
+        min-width: 35rem;
+      }
+      section{
+        padding: 0 0.5rem;
+        font-size: 30%;
+        height: max-content;
+        max-width: 35rem ;
+        height: fit-content;
+      }
+      main{
+        height: fit-content;
+        width: 35rem ;
+      }
+      
+
   }

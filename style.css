@@ -16,8 +16,9 @@ body {
   line-height: 1.5;
   background: linear-gradient(135deg,#f9f8fa 0%, #2d545c86 50%, #070e3bd0 90%);
   background-repeat: no-repeat;
-  background-attachment: fixed;   
+  background-attachment: fixed;  
   background-size: cover;     
+ 
 }
 header {
   border: 0%;
@@ -26,31 +27,24 @@ header {
   background: linear-gradient(90deg, rgb(15, 43, 66) 10%, rgb(0, 0, 0) 90%);
   max-width: 150rem;
   min-width: 150rem;
-  height: 35rem;
+  height: 25rem;
   text-align: center;
   font-size: xx-large;
 
 }
-img {
-
-  width: 1400px;
-  height: 900px;
-opacity: 0.4;
-
-} 
 
 h1 { margin: 0 0 0.25rem 0; 
 }
 .headd {
-  background: linear-gradient(99deg, rgb(189, 186, 186) 30%, rgb(178, 178, 188) 40%, rgb(236, 236, 236) 80%);
+   background: linear-gradient(99deg, rgb(189, 186, 186) 30%, rgb(178, 178, 188) 40%, rgb(236, 236, 236) 80%);
   -webkit-background-clip: text;
   background-clip: text;
-  -webkit-text-fill-color: transparent; 
+  -webkit-text-fill-color: transparent;
 }
 .headd p {
   font-size: 2.4rem;
 }
-.bande{min-width: 1500px; height: 50px; 
+.bande{min-width: 152rem; height: 5rem; 
   background: linear-gradient(90deg, rgb(253, 253, 255) 4%, rgba(6, 13, 44, 0.681) 80%); margin: 0 auto;}
 h3 { margin-top: 1rem; color: whitesmoke;
 background-color: #1a6aa3ad;
@@ -65,27 +59,68 @@ h2 { margin-top: 1.25rem;  color: whitesmoke;
 background-color: #051d3ead;
 padding: 0.5rem; border-radius: 8px;
 width: fit-content;  font-size: 2rem; }
-section { margin: 2rem auto; max-width: 90rem; padding: 0 1rem;
+section { margin: 1rem auto; max-width: 90rem; padding: 0 1rem;
 }
 footer { margin-top: 2rem; color: var(--muted); font-size: 0.9rem; }
 a:hover { text-decoration: underline; }
 
 
- @media screen  and (max-width:62.5rem) {
+      @media screen  and (max-width:62.5rem) {
       html{
         font-size: 50%;
+        height: fit-content;
       }
       header {
         font-size: 75%;
+        width: 60rem;
+        text-align:left ;
+        padding-left: 4rem;
+        padding-top: 4rem;
+        padding-right: 4rem;
+    
       }
 
-      
+      .bande{
+        min-width: 60rem;
+      }
+      section{
+        font-size: 60%;
+        width: 60rem;
+        padding: 0 1rem;
+        height: max-content;  
+        }
+      main{
+        height: fit-content;
+        width: 60rem ;
+      }
   }
-     @media screen  and (max-width:31.25rem) {
+ @media screen  and (max-width:31.25rem) {
       html{
-        font-size: 37.5%;
+        font-size: 25.5%;
+        
+      height: fit-content;
+
       }
       header {
-        font-size: 55%;
+        font-size: 35%;
+        width: 35rem;
+        text-align:left ;
+
       }
+      .bande{
+        min-width: 35rem;
+      }
+      section{
+        padding: 0 0.5rem;
+        font-size: 30%;
+        height: max-content;
+        max-width: 35rem ;
+        height: fit-content;
+      }
+      main{
+        height: fit-content;
+        width: 35rem ;
+      }
+      
+
   }
