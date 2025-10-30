@@ -3,14 +3,16 @@
   --accent: #0366d6;
   --muted: #666;
 }
+html{
+  font-size: 62.5%;
+}
 body {
   font-family: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial;
   border: 0;
   margin: 0;
   padding: 0;
-  min-width: 1500px;
-  min-height: 1000px;
-  max-height: 1500px;
+  width: 150rem;
+  height: 150rem;
   line-height: 1.5;
   background: linear-gradient(135deg,#f9f8fa 0%, #2d545c86 50%, #070e3bd0 90%);
 }
@@ -19,91 +21,55 @@ header {
   margin: 0%;
   padding: 1rem;
   background: linear-gradient(90deg, rgb(15, 43, 66) 10%, rgb(0, 0, 0) 90%);
-  max-width: 1500px;
-  min-width: 1500px;
-  height: 350px;
+  max-width: 150rem;
+  min-width: 150rem;
+  height: 25rem;
   text-align: center;
   font-size: xx-large;
 
 }
+
 h1 { margin: 0 0 0.25rem 0; 
 }
 .headd {
-  background: linear-gradient(99deg, rgb(122, 19, 113) 30%, rgb(83, 40, 239) 40%, rgb(181, 74, 74) 80%);
-  background-clip: text;
+   background: linear-gradient(99deg, rgb(189, 186, 186) 30%, rgb(178, 178, 188) 40%, rgb(236, 236, 236) 80%);
   -webkit-background-clip: text;
+  background-clip: text;
   -webkit-text-fill-color: transparent;
+}
+.headd p {
+  font-size: 2.4rem;
 }
 .bande{min-width: 1500px; height: 50px; 
   background: linear-gradient(90deg, rgb(253, 253, 255) 4%, rgba(6, 13, 44, 0.681) 80%); margin: 0 auto;}
 h3 { margin-top: 1rem; color: whitesmoke;
 background-color: #1a6aa3ad;
 padding: 0.5rem; border-radius: 8px;
-width: fit-content; }
-  img {
+width: fit-content; font-size: 1.8rem;}
+  p{ font-size: 1.6rem; color: black; }
+  a{ color: var(--accent); font-size: 1.6rem;}
+nav a { color: var(--accent); text-decoration: none;font-size:1.6rem; margin: 0 1rem; }
+li{ font-size: 1.6rem; color: black; margin-bottom: 0.5rem; }
 
-  width: 1400px;
-  height: 900px;
-opacity: 0.4;
-
-} 
-
-     @media screen  and (max-width: 1500px) {
-      body {
-        font-size: 14px;
-        width: 1500px;
-        
-      }
-      header {
-        font-size: xx-large;
-        width: 1500px;
-        height: auto;
-      }
-      header img {
-        width: 1400px;
-        height: auto;
-     
-    }
-  }
-     @media screen  and (max-width: 800px) {
-      body {
-        font-size: 10px;
-        width: 650px;
-        height: auto;
-      }
-      header {
-        font-size: x-large;
-        width: 650px;
-        height: auto;
-      }
-      header img {
-        width: 600px;
-        height: auto;
-     
-    }
-  }
-     @media screen  and (max-width: 460px) {
-      body {
-        font-size:7px;
-        width: 450px;
-        height: auto;
-      }
-      header {
-        font-size: large;
-        width: 450px;
-        height: auto;
-      } 
-      header img {
-        width: 400px;
-        height: auto;
-    }
-  }
-nav a { color: var(--accent); text-decoration: none; }
 h2 { margin-top: 1.25rem;  color: whitesmoke;
 background-color: #051d3ead;
 padding: 0.5rem; border-radius: 8px;
-width: fit-content; }
-section { margin: 2rem auto; max-width: 900px; padding: 0 1rem;
+width: fit-content;  font-size: 2rem; }
+section { margin: 2rem auto; max-width: 90rem; padding: 0 1rem;
 }
 footer { margin-top: 2rem; color: var(--muted); font-size: 0.9rem; }
 a:hover { text-decoration: underline; }
+
+
+ @media screen  and (max-width:62.5rem) {
+      html{
+        font-size: 50%;
+      }
+
+      
+  }
+     @media screen  and (max-width:31.25rem) {
+      html{
+        font-size: 37.5%;
+      }
+  }
